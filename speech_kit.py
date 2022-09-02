@@ -18,7 +18,7 @@ def synthesize(folder_id, api_key, text):
     ### https://cloud.yandex.ru/services/speechkit#demo
     ### https://cloud.yandex.ru/docs/speechkit/quickstart
     ### https://www.youtube.com/watch?v=Px1YyTj1h9M
-#============================= ТУТ ЗАВИСАЕТ НА СЕРВЕРЕ LINYX ===============================#
+#============================= ТУТ ЗАВИСАЕТ НА СЕРВЕРЕ LINUX ===============================#
     with requests.post(url, headers=headers, data=data, stream=True) as resp:
 #============================= Все что дальше не обрабатывается ===============================#
         if resp.status_code != 200:
